@@ -1,0 +1,193 @@
+=====================================
+TOPIC 1: Python Programming Basics
+=====================================
+Subject  : Computer Science
+Chapter  : 1
+Difficulty: Beginner
+
+INTRODUCTION:
+Python is a high level programming language
+created by Guido van Rossum in 1991.
+It is known for its simple and readable syntax.
+Python is used in web development, data science,
+artificial intelligence and automation.
+
+KEY CONCEPTS:
+
+1. Variables:
+Variables are containers for storing data.
+Python is dynamically typed.
+Example:
+name = "John"
+age  = 25
+pi   = 3.14
+
+2. Data Types:
+- String  : Text data  → "Hello"
+- Integer : Whole numbers → 25
+- Float   : Decimal numbers → 3.14
+- Boolean : True or False
+- List    : [1, 2, 3, 4]
+- Dictionary: {"key": "value"}
+
+3. Control Flow:
+If/Else statements control program flow.
+Example:
+if age > 18:
+    print("Adult")
+else:
+    print("Minor")
+
+4. Loops:
+For loop: Iterate over sequence
+While loop: Repeat while condition true
+Example:
+for i in range(5):
+    print(i)
+
+5. Functions:
+Reusable blocks of code.
+def greet(name):
+    return f"Hello {name}!"
+
+IMPORTANT POINTS:
+- Python uses indentation (4 spaces)
+- Python is case sensitive
+- Comments start with #
+- Python is interpreted language
+
+EXAM TIPS:
+- Remember data types
+- Practice loop problems
+- Understand function scope
+
+=====================================
+TOPIC 2: Machine Learning Basics
+=====================================
+Subject  : Artificial Intelligence
+Chapter  : 2
+Difficulty: Intermediate
+
+INTRODUCTION:
+Machine Learning is a branch of AI that
+allows computers to learn from data without
+being explicitly programmed.
+Arthur Samuel coined the term in 1959.
+
+KEY CONCEPTS:
+
+1. Types of Machine Learning:
+a) Supervised Learning:
+   - Labeled training data
+   - Examples: Classification, Regression
+   - Algorithms: Linear Regression, SVM, CNN
+
+b) Unsupervised Learning:
+   - No labeled data
+   - Find hidden patterns
+   - Examples: Clustering, Dimensionality Reduction
+   - Algorithms: K-Means, PCA
+
+c) Reinforcement Learning:
+   - Agent learns from rewards
+   - Trial and error approach
+   - Examples: Game playing, Robotics
+
+2. ML Pipeline:
+Step 1: Data Collection
+Step 2: Data Preprocessing
+Step 3: Feature Engineering
+Step 4: Model Selection
+Step 5: Training
+Step 6: Evaluation
+Step 7: Deployment
+
+3. Important Terms:
+- Training Data: Data used to train model
+- Test Data: Data used to evaluate model
+- Overfitting: Model too specific to training
+- Underfitting: Model too simple
+- Accuracy: Correct predictions / Total
+
+4. Popular Algorithms:
+- Linear Regression: Predict continuous values
+- Logistic Regression: Binary classification
+- Decision Tree: Tree-based decisions
+- Random Forest: Multiple decision trees
+- Neural Network: Deep learning models
+
+IMPORTANT POINTS:
+- More data = Better model usually
+- Feature selection is crucial
+- Always split train/test data
+- Evaluate with multiple metrics
+
+EXAM TIPS:
+- Know difference between supervised/unsupervised
+- Memorize ML pipeline steps
+- Understand bias-variance tradeoff
+
+=====================================
+TOPIC 3: Data Structures
+=====================================
+Subject  : Computer Science
+Chapter  : 3
+Difficulty: Intermediate
+
+INTRODUCTION:
+Data structures are ways of organizing
+and storing data for efficient access.
+Choosing right data structure is crucial
+for writing efficient programs.
+
+KEY CONCEPTS:
+
+1. Arrays/Lists:
+- Sequential data storage
+- Index based access O(1)
+- Search O(n)
+- Insert/Delete O(n)
+
+2. Stack:
+- LIFO: Last In First Out
+- Operations: push, pop, peek
+- Use cases: Undo operations, brackets matching
+- Time: O(1) for all operations
+
+3. Queue:
+- FIFO: First In First Out
+- Operations: enqueue, dequeue
+- Use cases: BFS, scheduling
+- Time: O(1) for all operations
+
+4. Linked List:
+- Nodes connected by pointers
+- Dynamic size
+- Insert/Delete O(1)
+- Search O(n)
+- Types: Singly, Doubly, Circular
+
+5. Trees:
+- Hierarchical structure
+- Root, parent, child nodes
+- Binary Tree: Max 2 children
+- BST: Left < Root < Right
+- Height of tree: O(log n) for balanced
+
+6. Hash Table:
+- Key-value pairs
+- O(1) average search
+- Handles collisions
+- Used in dictionaries
+
+IMPORTANT POINTS:
+- Time complexity matters
+- Space complexity matters
+- Choose based on operations needed
+- Arrays for random access
+- Linked list for frequent insert/delete
+
+EXAM TIPS:
+- Know Big O for each structure
+- Practice implementation
+- Understand when to use which
